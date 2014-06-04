@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun" />
+            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\project" />
+            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\submission" />
+            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\submission\project" />
+          </set>
+        </option>
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>
+
