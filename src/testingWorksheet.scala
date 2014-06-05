@@ -1,8 +1,9 @@
 object testingWorksheet {
-  def testMethod() {
-    println("Hola, Mundo!")
+
+  def pascal(c: Int, r: Int): Int = {
+    println(1)
+    1
   }
 
-  testMethod()
-
+  pascal(2,1)
 }
