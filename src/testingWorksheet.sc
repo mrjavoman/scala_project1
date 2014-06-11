@@ -2,29 +2,78 @@ object testingWorksheet {
 
   def balance(chars: List[Char]): Boolean = {
 
-    def leftParen(charList: List[Char], isBalanced: Boolean) : Boolean = {
-      val isBalanced = false
-      parse(charList, isBalanced)
+    def leftParen(charList: List[Char]) : Boolean = {
+      //val isBalanced = false
+      parse(charList, false)
     }
 
     def parse(charList: List[Char], isBalanced: Boolean) : Boolean = {
+      //val isBalanced = isBalanced
+      var isBalancedVar = isBalanced
+
       if( charList.isEmpty){
-        return isBalanced
+        return isBalancedVar
       }
       val aChar = charList.head
       if (aChar == '(') {
-        //isBalanced = isBalanced && leftParen(charList.tail, isBalanced)
-        leftParen(charList.tail, isBalanced)
+        isBalancedVar = (isBalancedVar && leftParen(charList.tail))
+        //leftParen(charList.tail, isBalanced)
       } else if (aChar == ')') {
         return true
       }
-      //println(charList.head)
-      parse(charList.tail, isBalanced)
+      println(charList.head)
+      parse(charList.tail, isBalancedVar)
     }
-    var isBalanced = true
-    parse(chars,  isBalanced)
+    //var isBalanced = true
+    parse(chars, true)
   }
-  balance("Hello".toList)
+  balance("(if (zero? x) max (/ 1 x)".toList)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //balance("(Hello".toList)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
