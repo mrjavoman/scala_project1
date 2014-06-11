@@ -7,10 +7,10 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun" />
-            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\project" />
-            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\submission" />
-            <option value="C:\Users\Xavi\Dropbox\Coursera\Functional Programming Principles in Scala\recfun\recfun\submission\project" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/submission" />
+            <option value="$PROJECT_DIR$/submission/project" />
           </set>
         </option>
       </SbtProjectSettings>

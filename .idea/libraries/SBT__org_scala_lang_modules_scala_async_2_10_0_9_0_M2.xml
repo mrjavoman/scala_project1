@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="SBT: org.scala-lang.modules:scala-async_2.10:0.9.0-M2">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib_managed/jars/org.scala-lang.modules/scala-async_2.10/scala-async_2.10-0.9.0-M2.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC>
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/docs/org.scala-lang.modules/scala-async_2.10/scala-async_2.10-0.9.0-M2-javadoc.jar&#10;      " />
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/docs/org.scala-lang.modules/scala-async_2.10/scala-async_2.10-0.9.0-M2-javadoc.jar&#10;      " />
