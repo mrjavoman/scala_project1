@@ -7,11 +7,13 @@
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/docs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-javadoc.jar&#10;      " />
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/docs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-javadoc.jar&#10;      " />
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/docs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-javadoc.jar&#10;      " />
+      <root url="jar://$PROJECT_DIR$/lib_managed/docs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/srcs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-sources.jar&#10;      " />
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/srcs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-sources.jar&#10;      " />
       <root url="file://$PROJECT_DIR$/&#10;        ~/Dropbox/Coursera/Functional Programming Principles in Scala/recfun/recfun/lib_managed/srcs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-sources.jar&#10;      " />
+      <root url="jar://$PROJECT_DIR$/lib_managed/srcs/net.databinder.dispatch/dispatch-core_2.10/dispatch-core_2.10-0.11.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
