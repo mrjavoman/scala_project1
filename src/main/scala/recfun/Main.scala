@@ -25,30 +25,34 @@ object Main {
    */
   def balance(chars: List[Char]): Boolean = {
 
-    def leftParen(charList: List[Char], isBalanced: Boolean) : Boolean = {
-      //val isBalanced = false
-      parse(charList, !isBalanced)
+    var localChars = chars
+
+    def leftParen(isBalanced: Boolean) : Boolean = {
+      parse( false)
     }
 
-    def parse(charList: List[Char], isBalanced: Boolean) : Boolean = {
+    def parse( isBalanced: Boolean ) : Boolean = {
 
       var isBalancedVar = isBalanced
 
-      if( charList.isEmpty){
+      if( localChars.isEmpty){
         return isBalancedVar
       }
-      val aChar = charList.head
+
+      val aChar = localChars.head
+      localChars = localChars.tail
+
       if (aChar == '(') {
-        isBalancedVar = (isBalancedVar && leftParen(charList.tail, isBalancedVar))
-        //leftParen(charList.tail, isBalanced)
+        isBalancedVar = leftParen(isBalancedVar) && isBalancedVar
       } else if (aChar == ')') {
         return !isBalancedVar
       }
-      println(charList.head)
-      parse(charList.tail, isBalancedVar)
+      println(aChar)
+
+      parse(isBalancedVar)
     }
-    //var isBalanced = true
-    parse(chars, true)
+
+    parse(true)
 
   }
 
