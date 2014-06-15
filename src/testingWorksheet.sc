@@ -1,38 +1,17 @@
+//
+
 object testingWorksheet {
 
-  def balance(chars: List[Char]): Boolean = {
-
-    var localChars = chars
-
-    def leftParen(isBalanced: Boolean) : Boolean = {
-      parse( false)
-    }
-
-    def parse( isBalanced: Boolean ) : Boolean = {
-
-      var isBalancedVar = isBalanced
-
-      if( localChars.isEmpty){
-        return isBalancedVar
-      }
-
-      val aChar = localChars.head
-      localChars = localChars.tail
-
-      if (aChar == '(') {
-        isBalancedVar = leftParen(isBalancedVar) && isBalancedVar
-      } else if (aChar == ')') {
-        return !isBalancedVar
-      }
-      println(aChar)
-
-      parse(isBalancedVar)
-    }
-
-    parse(true)
-
+  def countChange(money: Int, coins: List[Int]): Int = {
+    //if( !coins.isEmpty )
+      //println(coins.reverse.head)
+    //def num_ways(m: Int, c: List[Int]): Int = {
+    if( money < 0 || coins.isEmpty) 0
+    else if (money == 0 && coins.size == 1) 1
+    else countChange(money,coins.reverse.tail) + countChange(money - coins.reverse.head ,coins)
+    //}
+    //num_ways(money,coins)
   }
-  //balance("(if (zero? x) max (/ 1 x)".toList)
-  balance("((Hello))".toList)
+  countChange(4,List(1,2))
 }
 
